@@ -1,19 +1,15 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import { useParams } from 'react-router-dom'
 import './DetalleFoto.css'
+import {DATA_IMAGENES} from '../data.js'
 
 function DetalleFoto() {
 
-    const [foto, setFoto] = useState([])
-    const apiKey = import.meta.env.VITE_API_KEY;
-    const baseUrl = import.meta.env.VITE_URL;
-
+    
     const {id} = useParams()
+    
+    const foto = DATA_IMAGENES.filter((imagen) => imagen.id == id)[0]
 
-    useEffect(() => {
-        fetch(baseUrl +'/'+ id + '?api_key=' + apiKey).then(res => res.json())
-        .then(data => setFoto(data.foto))
-    }, [])
     return (
         <main>
             <div className="caja-foto-detalle">
