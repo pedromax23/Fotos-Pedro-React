@@ -37,17 +37,17 @@ function App() {
           <div className="navegacion">
               <nav>
                   <ul className="menu">
-                      <Link to="/"><li>Inicio</li></Link>
-                      <Link to="/fotos"><li>Fotos</li></Link>
+                      <Link to="/Fotos-Pedro-React"><li>Inicio</li></Link>
+                      <Link to="/Fotos-Pedro-React/fotos"><li>Fotos</li></Link>
                   </ul>
               </nav>
           </div>
         </header>
 
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/fotos" element={<Fotos fotos={fotos}/>} />
-          <Route path="/fotos/:id" element={<DetalleFoto />} />
+          <Route path="/Fotos-Pedro-React/" element={<Home />} />
+          <Route path="/Fotos-Pedro-React/fotos" element={<Fotos fotos={fotos}/>} />
+          <Route path="/Fotos-Pedro-React/fotos/:id" element={<DetalleFoto />} />
         </Routes>
       </>
     )

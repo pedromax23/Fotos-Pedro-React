@@ -7,7 +7,7 @@ function Foto({id, imagen}) {
     return (        
         <article key={'foto'+id} className="caja-foto">
 
-            <Link to={"/fotos/"+id}>
+            <Link to={"/Fotos-Pedro-React/fotos/"+id}>
                 <img loading='lazy' src={imagen} alt="Imagen del cumpleaños" />
             </Link>
         </article>
