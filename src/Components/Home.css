@@ -1,0 +1,12 @@
+
+.caja-presentacion {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    background-color: #ADD8E6;
+    text-align: center;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}

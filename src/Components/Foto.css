@@ -1,0 +1,23 @@
+.caja-foto img {
+    width: 300px;
+}
+
+@media (min-width: 768px) {
+    .caja-foto img {
+        width: auto;
+        height: 500px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .caja-foto {
+        height: 550px;
+    }
+    .caja-foto img {
+        padding: 5px;
+        transition: all 0.5s;
+    }
+    .caja-foto img:hover {
+        transform: scale(1.1)
+    }
+}

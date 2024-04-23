@@ -1,0 +1,21 @@
+.caja-foto-detalle {
+    width: 95%;
+    margin: auto;
+    text-align: center;
+}
+
+.caja-foto-detalle img {
+    width: 95vw;
+}
+
+@media (min-width: 768px) {
+    .caja-foto-detalle img {
+        width: 700px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .caja-foto-detalle img {
+        width: 1000px;
+    }
+}
