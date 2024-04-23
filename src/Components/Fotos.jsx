@@ -2,7 +2,10 @@
 import Foto from './Foto'
 import './Fotos.css'
 
-function Fotos({fotos}) {
+import {DATA_IMAGENES} from '../data.js'
+
+function Fotos() {
+    const fotos = DATA_IMAGENES
 
     return (
         <main>
