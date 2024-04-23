@@ -15,8 +15,8 @@ function App() {
           <div className="navegacion">
               <nav>
                   <ul className="menu">
-                      <Link to="/"><li>Inicio</li></Link>
-                      <Link to="/fotos"><li>Fotos</li></Link>
+                      <Link to="/Fotos-Pedro-React"><li>Inicio</li></Link>
+                      <Link to="/Fotos-Pedro-React/fotos"><li>Fotos</li></Link>
                   </ul>
               </nav>
           </div>
